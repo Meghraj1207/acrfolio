@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — StudioName Architects</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+
+  <main class="container">
+    <section class="section">
+      <div class="section-header">
+        <h2>Start a Project</h2>
+        <p class="lead">Share a few details and we’ll get back within 1–2 business days.</p>
+      </div>
+
+      <form class="form" onsubmit="event.preventDefault(); alert('Thanks! We will be in touch.');">
+        <div class="row">
+          <input type="text" name="name" placeholder="Full name" required>
+          <input type="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="row">
+          <input type="text" name="company" placeholder="Company (optional)">
+          <select name="type" required>
+            <option value="">Project type</option>
+            <option>Residential</option>
+            <option>Commercial</option>
+            <option>Hospitality</option>
+            <option>Institutional</option>
+            <option>Interiors</option>
+          </select>
+        </div>
+        <div class="row">
+          <input type="text" name="budget" placeholder="Approx. budget (e.g., $500k)">
+          <input type="text" name="timeline" placeholder="Timeline (e.g., Q4 2025)">
+        </div>
+        <textarea name="message" placeholder="Briefly describe your project, site, and goals."></textarea>
+        <div class="actions">
+          <button class="btn" type="submit">Send</button>
+          <a href="mailto:hello@studioname.com" class="btn btn-outline">Email instead</a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+
+</body>
+</html>

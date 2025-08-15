@@ -1,0 +1,47 @@
+<!-- Header -->
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <div class="brand-logo"><!-- Optional: add small logo image as background --></div>
+      <div class="brand-name"><!-- Studio Name -->StudioName Architects</div>
+    </a>
+    <nav class="menu">
+      <a href="projects.html">Projects</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="projects.html" class="btn btn-outline">View Work</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div style="display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;">
+      <div>
+        <div style="font-weight:700">StudioName Architects</div>
+        <div>Designing spaces that perform and inspire.</div>
+        <div style="margin-top:6px;font-size:14px;color:#a9b4c2">
+          <!-- Replace with your address/registration -->
+          <!-- Address Line 1, City, Country -->
+        </div>
+      </div>
+      <div>
+        <div class="badges">
+          <!-- Add credentials/memberships -->
+          <span class="badge">Licensed Architect</span>
+          <span class="badge">LEED AP</span>
+          <span class="badge">10+ Years</span>
+        </div>
+        <div style="margin-top:10px;display:flex;gap:12px;flex-wrap:wrap;">
+          <!-- Replace with real links -->
+          <a href="#" class="badge">Instagram</a>
+          <a href="#" class="badge">LinkedIn</a>
+          <a href="#" class="badge">Behance</a>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:14px;font-size:12px;color:#6b7785;">© <!-- Year -->2025 StudioName Architects. All rights reserved.</div>
+  </div>
+</footer>
